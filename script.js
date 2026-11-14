@@ -10,6 +10,17 @@ audio.preload = 'auto'
 audio.volume = 1
 let lastSoundIndex = -1
 
+const dnpButton = document.getElementById('dnp')
+
+dnpButton.addEventListener('click', () => {
+    audio.pause()
+    audio.src = 'aud/windows-xp-error-song-edited-by-dj-cobaltsteel-77.mp3'
+    audio.currentTime = 0
+    audio.play().catch((error) => {
+        console.error('Не удалось воспроизвести звук:', audio.src, error)
+    })
+})
+
 navLinks.forEach((link) => {
     link.addEventListener('click', (event) => {
         event.preventDefault()
@@ -29,3 +40,5 @@ navLinks.forEach((link) => {
         })
     })
 })
+
+

@@ -1,15 +1,21 @@
 body {
   background-color: honeydew;
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
-#page {
+main,
+header,
+.container {
   max-width: 1200px;
   margin-inline: auto;
+  padding-inline: 16px;
 }
 
 
-
+a {
+  transition: all 0.3s ease-in-out;
+}
 
 button,
 .button {
@@ -29,15 +35,27 @@ button,
 }
 
 nav {
-  display: inline-block;
-  float: right;
   padding-block: 20px;
 
   a {
+    font-weight: 700;
+    text-decoration: none;
     padding-inline: 10px;
     padding-block: 5px;
+
+    &:hover {
+      color: rgb(81, 81, 255);
+    }
   }
 }
+
+@media (min-width: 720px) {
+  nav {
+    display: inline-block;
+    float: right;
+  }
+}
+
 
 header {
   margin-bottom: 40px;
@@ -59,10 +77,16 @@ header {
 .hero-text {
   padding-inline: 20px;
   padding-block: 60px;
-  width: 45%;
+
   height: 90%;
   font-size: 130%;
   display: inline-block;
+}
+
+@media (min-width: 720px) {
+  .hero-text {
+    width: 45%;
+  }
 }
 
 .hero-img {
@@ -184,3 +208,12 @@ header {
 
   }
 } */
+footer {
+  background-color: rgb(43, 43, 43);
+  padding-block: 20px;
+
+  img {
+    max-height: 120px;
+    display: inline-block;
+  }
+}

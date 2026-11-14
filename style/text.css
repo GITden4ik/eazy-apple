@@ -36,3 +36,10 @@ h5 {
     margin-block: 20px;
   }
 }
+footer{
+  h5,h6{
+    color: whitesmoke;
+    display: inline-block;
+    padding-left: 15%;
+  }
+}
