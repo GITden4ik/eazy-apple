@@ -8,24 +8,8 @@ body {
   margin-inline: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  margin-block: 0;
-  margin-bottom: 20px;
-}
 
-h1 {
-  display: inline-block;
-}
 
-h2 {
-  font-size: 68px;
-}
 
 button,
 .button {
@@ -54,20 +38,24 @@ nav {
     padding-block: 5px;
   }
 }
+
 header {
   margin-bottom: 40px;
+
   img {
     max-height: 120px;
   }
 }
+
 .hero {
   position: relative;
   border-radius: 30px;
   height: 400px;
-  background-image: url("img/Soft-Blue-Wave-Gradient.jpg");
+  background-image: url("../img/Soft-Blue-Wave-Gradient.jpg");
   background-size: cover;
   margin-bottom: 40px;
 }
+
 .hero-text {
   padding-inline: 20px;
   padding-block: 60px;
@@ -76,6 +64,7 @@ header {
   font-size: 130%;
   display: inline-block;
 }
+
 .hero-img {
   width: auto;
   height: 110%;
@@ -83,18 +72,29 @@ header {
   right: 150px;
   bottom: 0;
 }
-.phone {
-  max-width: 20%;
-  background-color: aquamarine;
-  border-radius: 20px;
-  border: 4px solid gray;
+
+
+.card {
+  background-color: cornsilk;
+  border-color: lightseagreen;
+}
+
+.card {
+  display: inline-block;
+
+  h1 {
+    display: inline-block;
+  }
+
+  width: 30%;
+  border-radius: 12px;
+  border: 4px silver solid ;
 
   img {
-    max-width: 100%;
-  }
-  .txt-phone {
-    padding-inline: 20px;
-    padding-top: 30px;
-    font-size: 120%;
+    width: 95%;
+    border-radius: 12px;
+    margin-inline: auto;
+    padding-bottom: 20px;
+        display: block
   }
 }
