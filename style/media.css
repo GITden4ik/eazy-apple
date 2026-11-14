@@ -1,3 +1,32 @@
+@media (max-width: 719px) {
+    header {
+        position: relative;
+    }
+
+    .burger {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 16px;
+        font-size: 26px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav.open {
+        display: block;
+    }
+
+    .main-nav a {
+        display: block;
+        padding: 12px;
+    }
+}
+
 @media (max-width: 700px) {
     .card {
         width: 90%;
