@@ -1,0 +1,39 @@
+@media (max-width: 700px) {
+    .card {
+        width: 90%;
+        display: block;
+        margin-inline: auto;
+        
+    }
+
+
+    h2 {
+        font-size: 58px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .hero-img {
+        transform: translateX(100px);
+
+    }
+}
+@media(max-width:820px){
+    .hero{
+        height: 120%;
+    }
+  .hero-img{opacity: 0%;}
+}

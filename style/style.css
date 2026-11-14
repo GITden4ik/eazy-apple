@@ -88,13 +88,99 @@ header {
 
   width: 30%;
   border-radius: 12px;
-  border: 4px silver solid ;
+  border: 4px silver solid;
 
   img {
     width: 95%;
     border-radius: 12px;
     margin-inline: auto;
     padding-bottom: 20px;
-        display: block
+    display: block
   }
 }
+
+.acsessories {
+  background-image: url(../img/Soft-Blue-Wave-Gradient.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 20px;
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  div {
+    width: 60%;
+    display: inline-block;
+  }
+
+  img {
+    vertical-align: middle;
+    width: calc(40% - 20px);
+    max-width: 100%;
+    aspect-ratio: 1.75;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .acsessories {
+
+    h4 {
+      margin-bottom: 20px;
+    }
+
+
+    div {
+      display: block;
+      width: 100%;
+    }
+
+    img {
+      width: 100%
+    }
+  }
+}
+
+
+/* 
+.acsessories-flex {
+  background-image: url(../img/Soft-Blue-Wave-Gradient.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  margin-block: 40px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  div {
+    flex: 1;
+  }
+
+  img {
+    height: 320px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    max-width: 100%;
+
+    object-position: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .acsessories-flex {
+    flex-direction: column;
+
+    img {
+      height: 240px;
+    }
+
+  }
+} */
