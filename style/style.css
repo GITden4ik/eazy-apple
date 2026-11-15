@@ -221,3 +221,25 @@ footer {
     display: inline-block;
   }
 }
+
+.cnt,
+.channel {
+  display: flex;
+  gap: 5%;
+  flex-direction: column;
+}
+
+.container-txt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.channel {
+  a {
+    color: whitesmoke;
+  }
+}
+#dnp{min-width: 100%;}
