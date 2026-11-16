@@ -1,5 +1,5 @@
 body {
-  background-color: honeydew;
+  background-color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
@@ -46,9 +46,11 @@ nav {
     text-decoration: none;
     padding-inline: 10px;
     padding-block: 5px;
-
+   border-radius: 8px ;
+transition: .9s ease-in-out;
     &:hover {
-      color: rgb(81, 81, 255);
+      color: #e0e9ff ;
+      background-color: #202b45;
     }
   }
 }
@@ -103,8 +105,8 @@ header {
 
 
 .card {
-  background-color: cornsilk;
-  border-color: lightseagreen;
+  background-color: rgb(216, 216, 216);
+  border-color: rgb(33, 33, 33);
 }
 
 .card {
@@ -243,4 +245,117 @@ footer {
   }
 }
 #dnp{min-width: 100%;}
-.cnt{a{color: whitesmoke;}}
+header{background-color: rgb(230, 230, 230);;}
+
+/* Единая светлая палитра главной страницы. */
+.catalog-title {
+  display: block;
+  font-size: 36px;
+}
+
+.catalog-intro {
+  max-width: 650px;
+  margin-bottom: 32px;
+  color: #536078;
+  line-height: 1.7;
+}
+
+.phone-placeholder {
+  height: 210px;
+  line-height: 210px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #edf1fa;
+  color: #3155a5;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.home-page {
+  background-color: #f5f7fc;
+  color: #202b45;
+}
+
+.home-page header {
+  background-color: #edf1fa;
+  border-radius: 0 0 24px 24px;
+}
+
+.home-page a {
+  color: #3155a5;
+}
+
+.home-page .button,
+.home-page button {
+  background-color: #3155a5;
+  color: #fff;
+  border: 0;
+}
+
+.home-page .button:hover,
+.home-page button:hover {
+  background-color: #244182;
+}
+
+.home-page .hero,
+.home-page .acsessories {
+  background-color: #e7edfb;
+}
+
+.home-page .card {
+  box-sizing: border-box;
+  width: 31%;
+  margin: 0 1% 24px 0;
+  padding: 20px;
+  vertical-align: top;
+  background-color: #fff;
+  border: 1px solid #dce3f0;
+  border-radius: 20px;
+}
+
+.home-page .card h5 a {
+  margin: 0;
+  text-decoration: none;
+}
+
+.home-page .card img {
+  width: 100%;
+  height: 210px;
+  object-fit: contain;
+  padding: 0;
+  background-color: #f3f5fa;
+}
+
+.card-description {
+  color: #536078;
+  font-size: 15px;
+  line-height: 1.65;
+  min-height: 100px;
+}
+
+.home-page .card .card-details {
+  display: inline-block;
+  margin: 0;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-page footer {
+  background-color: #202b45;
+}
+
+.home-page footer a {
+  color: #e0e9ff;
+}
+
+@media (max-width: 700px) {
+  .home-page .card {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .card-description {
+    min-height: 0;
+  }
+}

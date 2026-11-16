@@ -42,7 +42,7 @@ dnpButton.addEventListener('click', () => {
 navLinks.forEach((link) => {
     link.addEventListener('click', (event) => {
         // Отменяем переход по # и закрываем меню после выбора пункта.
-        event.preventDefault()
+        // event.preventDefault()
         nav.classList.remove('open')
         burgerButton.setAttribute('aria-expanded', 'false')
         // Останавливаем предыдущий звук перед выбором следующего.
