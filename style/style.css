@@ -285,6 +285,12 @@ header{background-color: rgb(230, 230, 230);;}
   color: #3155a5;
 }
 
+.main-nav a[aria-current="page"],
+.main-nav a[aria-current="true"] {
+  color: #e0e9ff;
+  background-color: #202b45;
+}
+
 .home-page .button,
 .home-page button {
   background-color: #3155a5;
